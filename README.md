@@ -1,21 +1,16 @@
 # GMapScraperAPI
-
-First Command
+```sh
+sudo apt install npm
+```
 
 ```sh
 npm install
 ```
 
-
-Second Command
-
 ```sh
 npm i puppeteer
 ```
 
-
-
-Third Command
 ```sh
 npm install pm2 -g
 ```
