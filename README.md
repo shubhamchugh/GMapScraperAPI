@@ -1,4 +1,13 @@
 # GMapScraperAPI
+
+
+Download Api File to the server
+```sh
+cd /home/
+git clone https://github.com/shubhamchugh/GMapScraperAPI.git
+```
+
+
 ```sh
 sudo apt install npm
 ```
@@ -24,13 +33,6 @@ sudo apt-get install libglib2.0-0
 
 ```sh
 npm install pm2 -g
-```
-
-
-Download Api File to the server
-```sh
-cd /home/
-git clone https://github.com/shubhamchugh/GMapScraperAPI.git
 ```
 
 
