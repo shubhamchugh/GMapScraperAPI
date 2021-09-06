@@ -57,6 +57,19 @@ server run after reboot also
 pm2 save
 ```
 
+
+
+troubleshoot for node server
+
+```sh
+pm2 list
+pm2 restart all
+pm2 stop all
+pm2 delete all
+
+```
+
+
 For Monitor NodeJs Server
 ```sh 
 pm2 monit
