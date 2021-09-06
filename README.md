@@ -38,7 +38,7 @@ Start/stop/restart Nodejs Server with apllication
 Please check dir before exicute the comand
 
 ```sh
-cd /home/
+cd /home/GMapScraperAPI/
 pm2 start express.js -i max
 pm2 stop express.js -i max
 pm2 restart express.js -i max
