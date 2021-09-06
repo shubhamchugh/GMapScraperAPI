@@ -26,11 +26,36 @@ sudo apt-get install libglib2.0-0
 npm install pm2 -g
 ```
 
-Start Nodejs Server
+
+Download Api File to the server
 ```sh
-pm2 start MyApiAppExpress.js -i max
+cd /home/
+git clone https://github.com/shubhamchugh/GMapScraperAPI.git
 ```
 
+
+Start/stop/restart Nodejs Server with apllication
+Please check dir before exicute the comand
+
+```sh
+cd /home/
+pm2 start express.js -i max
+pm2 stop express.js -i max
+pm2 restart express.js -i max
+```
+
+if not start Node js Server Try with Force
+```sh
+pm2 start express.js -i max -f
+pm2 stop express.js -i max -f 
+pm2 restart express.js -i max -f
+```
+
+
+server run after reboot also
+```sh
+pm2 save
+```
 
 For Monitor NodeJs Server
 ```sh 
