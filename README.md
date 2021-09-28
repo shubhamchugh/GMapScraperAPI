@@ -17,6 +17,7 @@ npm install
 ```
 
 ```sh
+npm install -g express
 npm i puppeteer
 ```
 
